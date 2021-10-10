@@ -59,13 +59,6 @@ public class Grid {
         System.out.println(boxedValue());
     }
 
-    /**
-     * x = (-b((+-) sqrt(b^2 - 4ac))) / 2a
-     */
-    public void drawLine() {
-
-    }
-
     public void apply(Plane plane) {
         for (int i = 0; i < plane.plotted.length; i++) {
             for (int j = 0; j < plane.plotted[i].length; j++) {
